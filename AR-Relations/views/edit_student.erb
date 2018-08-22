@@ -1,0 +1,17 @@
+
+<h1>change your details here, <%=  @student.name  %></h1>
+
+
+
+<form action="/student/<%=  @student_id  %>" method="POST">
+    <input type="hidden" name="_method" value="PUT">
+    <input type="text" name="name" value="<%=  @student.name  %>">
+    <input type="text" name="email" value="<%=  @student.email  %>">
+
+    <button type="submit" style="padding:10px; margin-left:20px; border-radius: 5px; color: #fff; background: orange;">submit</button>
+</form>
+
+<form action="/student/<%=  @student_id  %>" method="POST">
+    <input type="hidden" name="_method" value="DELETE">
+    <button type="submit" style="padding:5px; padding-left:15px; padding-right:15px; border-radius: 5px; color: #fff; background: red;">delete this student</button>
+</form>

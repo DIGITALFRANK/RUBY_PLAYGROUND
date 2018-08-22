@@ -1,0 +1,22 @@
+
+<!-- show students -->
+<% @all_course_students.each do |student| %>
+    <h1>  <%= student.name %>  </h1>
+    <h4>  <%= student.email %>  </h4>
+<% end %>
+
+</br>
+</br>
+</br>
+
+<!-- show instructor -->
+<h1>  <%= @instructor.name %>  </h1>
+
+</br>
+</br>
+</br>
+
+<!-- show TA's -->
+<% @all_tas.each do |ta| %>
+    <h1>  <%= ta.name %>  </h1>
+<% end %>

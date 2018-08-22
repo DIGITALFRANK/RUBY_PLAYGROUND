@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'helvetica-light', sans-serif;
+}
+
+header {
+    padding: 25px;
+}
+
+header h1 {
+    text-align: center;
+}
+
+main {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.prompt {
+    text-align: center;
+    padding-bottom: 15px; 
+}
+
+.prompt span {
+    display: block;
+    font-size: 1.3em;
+    margin: 15px;
+}
+
+.opinion_form {
+    margin: 40px;
+}
+
+
+.name, .email, .opinion {
+    width: 100%;
+    margin-top: 10px;
+    padding: 15px;
+}
+
+.opinion {
+    height: 100px;
+}
+
+.submit {
+    padding: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+footer {
+    position: absolute;
+    bottom: 0;
+}
+
+.copyright {
+    display: block;
+    font-size: .75em;
+    text-align: center;
+    padding: 15px;
+}
